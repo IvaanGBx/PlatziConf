@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    tools:context=".ui.home.schedule.HomeFragment">
+    tools:context=".ui.home.home.HomeFragment">
 
     <ScrollView
         android:layout_width="match_parent"
@@ -28,16 +28,17 @@
                     android:orientation="vertical"
                     android:background="@drawable/shape_parrafo"
                     >
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:background="@color/colorPrimaryDark"
+                        />
                     
                     <ImageView
                         android:layout_width="match_parent"
                         android:layout_height="@dimen/altoImageViewHome"
                         android:src="@drawable/banner_platzi_conf"  />
-                    <view
-                        android:layout_width="match_parent"
-                        android:layout_height="1dp"
-                        android:background="@color/colorPrimaryDark"
-                        />
+
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
@@ -50,7 +51,7 @@
                         android:layout_marginTop="@dimen/marginHomeSubtitulo"
                         />
 
-                    <view
+                    <View
                         android:layout_width="match_parent"
                         android:layout_height="1dp"
                         android:background="@color/colorPrimaryDark"
@@ -91,7 +92,7 @@
                         android:layout_height="@dimen/altoImageViewHome"
                         android:src="@drawable/platzi_conf_2"
                         android:scaleType="centerCrop"/>
-                    <view
+                    <View
                         android:layout_width="match_parent"
                         android:layout_height="1dp"
                         android:background="@color/colorPrimaryDark"
@@ -108,7 +109,7 @@
                         android:layout_marginTop="@dimen/marginHomeSubtitulo"
                         />
 
-                    <view
+                    <View
                         android:layout_width="match_parent"
                         android:layout_height="1dp"
                         android:background="@color/colorPrimaryDark"
@@ -147,7 +148,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="@dimen/altoImageViewHome"
                         android:src="@drawable/platzi_conf_3"  />
-                    <view
+                    <View
                         android:layout_width="match_parent"
                         android:layout_height="1dp"
                         android:background="@color/colorPrimaryDark"
@@ -164,7 +165,7 @@
                         android:layout_marginTop="@dimen/marginHomeSubtitulo"
                         />
 
-                    <view
+                    <View
                         android:layout_width="match_parent"
                         android:layout_height="1dp"
                         android:background="@color/colorPrimaryDark"

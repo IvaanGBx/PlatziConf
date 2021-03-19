@@ -1,4 +1,4 @@
-package me.ivaangb.platzi.ui.home.schedule
+package me.ivaangb.platzi.ui.home.home
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment
