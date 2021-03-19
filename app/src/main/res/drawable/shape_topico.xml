@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid
+        android:color="@color/blue_sky"/>
+
+    <corners
+        android:radius="4dp"/>
+
+    <padding
+        android:right="@dimen/padding_right_shape_topico"
+        android:left="@dimen/padding_right_shape_topico"
+        android:top="@dimen/padding_top_shape_topico"
+        android:bottom="@dimen/padding_top_shape_topico"
+        />
+
+</shape>
