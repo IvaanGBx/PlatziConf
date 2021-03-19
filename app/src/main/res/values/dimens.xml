@@ -11,4 +11,6 @@
     <dimen name="tamanioTitulo">20sp</dimen>
     <dimen name="tamanioSubtitulo">15sp</dimen>
     <dimen name="marginCardView">16dp</dimen>
+    <dimen name="itemScheduleTitulo">30sp</dimen>
+    <dimen name="itemScheduleSubtitulo">20sp</dimen>
 </resources>

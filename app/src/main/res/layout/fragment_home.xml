@@ -85,7 +85,8 @@
                     <ImageView
                         android:layout_width="match_parent"
                         android:layout_height="@dimen/altoImageViewHome"
-                        android:src="@drawable/platzi_conf_2"  />
+                        android:src="@drawable/platzi_conf_2"
+                        android:scaleType="centerCrop"/>
                     <view
                         android:layout_width="match_parent"
                         android:layout_height="1dp"
